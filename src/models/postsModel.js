@@ -1,5 +1,5 @@
-import { ObjectId } from "mongodb"
-import conectarAoBanco from "../config/dbConfig.js"
+import { ObjectId } from "mongodb";
+import conectarAoBanco from "../config/dbConfig.js";
 
 const conexao = await conectarAoBanco(process.env.STRING_CONEXAO)
 // Estabelece a conexão com o banco de dados, utilizando a string de conexão obtida da variável de ambiente `STRING_CONEXAO`. O resultado da conexão é armazenado na variável `conexao`.
